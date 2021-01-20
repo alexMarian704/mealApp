@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: #121212;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 6px;
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.15);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    #info{
+        margin-top: 3px;
+        font-size: 28px;
+    }
+}
+body{
+    background-color: #181818;
+}
+#searchContainer{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    height: 150px;
+    //background-color: red;
+    padding: 30px;
+    #searchBar{
+        width: 270px;
+        height: 50px;
+        margin: auto;
+        background-color: rgb(77, 77, 77);
+        border-radius: 280px;
+        #search{
+            width: 200px;
+            height: 40px;
+            outline: none;
+            margin-top: 4px;
+            background-color: transparent;
+            border: none;
+        }
+        #searchBut{
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            outline: none;
+        }
+        #searchBut:hover{
+            color: white;
+        }
+    }
+
+}
+
+#foodContainer{
+    width: 97vw;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: transparent;
+    justify-content: center;
+    #recipe{
+        width: 250px;
+        height: 330px;
+        position: relative;
+        margin: 10px;
+    }
+    #foodPhoto{
+        width: 250px;
+        height: 250px;
+        border-radius: 30px;
+        border: 4px solid #121212;
+        position: absolute;
+        bottom: 0;
+        cursor: pointer;
+    }
+
+    #foodPhoto:hover{
+        opacity: 0.5;
+        box-shadow: 0px 0px 8px 5px rgba(187, 187, 187, 0.4);
+        border: 1px solid rgb(167, 167, 167);
+        width: 257px;
+        height: 253px;
+    }
+
+    #foodName{
+        top: 0;
+        width: 230px;
+        text-align: center;
+        position: absolute;
+        color: rgb(255, 255, 255);
+    }
+}
+
+#recipeTitle{
+    width: 300px;
+    height: 60px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.22);
+}
+
+#recipeContainer{
+    margin-top: 30px;
+    margin: auto;
+    width: 70vw;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    top: 55px;
+    position: relative;
+    color: white;
+}
